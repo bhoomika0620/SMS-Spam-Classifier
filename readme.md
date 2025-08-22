@@ -45,8 +45,9 @@ cd sms-spam-classifier
 ```bash
 pip install pandas scikit-learn
 ```
-```bash
+
 ### **3. Run the classifier**
+```bash
 python sms_classifier.py
 ```
 
