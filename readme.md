@@ -24,10 +24,13 @@ Link: [SMS Spam Dataset](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collec
 - Pandas, Numpy  
 - Scikit-learn  
 - Matplotlib, Seaborn  
-
+         
 ---
 
 ## ⚡ Usage
-1. Clone the repo  
+1. Clone the repo
+2. pip install -r requirements.txt
+3. jupyter notebook "SMS classifier.ipynb"
+
    ```bash
    git clone https://github.com/your-username/sms-spam-classifier.git
