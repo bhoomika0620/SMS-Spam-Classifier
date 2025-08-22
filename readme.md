@@ -23,13 +23,13 @@ sms-spam-classifier/
 ## 🖼️ Screenshots  
 
 ### 1️⃣ Dataset Sample  
-![Dataset Example](images/excel_file.jpg)  
+![Dataset Example](excel_file.jpg)  
 
 ### 2️⃣ Training Output  
-![Training Output](images/Figure1.png)  
+![Training Output](Figure1.png)  
 
 ### 3️⃣ Prediction Example  
-![Prediction Example](images/figure_2.jpg)  
+![Prediction Example](figure_2.jpg)  
 
 ---
 
