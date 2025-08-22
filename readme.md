@@ -38,7 +38,7 @@ sms-spam-classifier/
 ### 1. Clone this repo
 ```bash
 git clone https://github.com/your-username/sms-spam-classifier.git
-cd sms-spam-classifier
+cd sms-spam-classifier ```
 
 ### **2. Install dependencies**
 pip install pandas scikit-learn
