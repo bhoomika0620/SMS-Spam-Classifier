@@ -23,13 +23,13 @@ sms-spam-classifier/
 ## 🖼️ Screenshots  
 
 ### 1️⃣ Dataset Sample  
-![Dataset Example](./figure1)  
+![Dataset Example](images/excel_file.jpg)  
 
 ### 2️⃣ Training Output  
-![Training Output](./figure2)  
+![Training Output](images/Figure1.png)  
 
 ### 3️⃣ Prediction Example  
-![Prediction Example](excel_file)  
+![Prediction Example](images/figure_2.jpg)  
 
 ---
 
@@ -38,13 +38,17 @@ sms-spam-classifier/
 ### 1. Clone this repo
 ```bash
 git clone https://github.com/your-username/sms-spam-classifier.git
-cd sms-spam-classifier ```
+cd sms-spam-classifier
+```
 
 ### **2. Install dependencies**
+```bash
 pip install pandas scikit-learn
-
+```
+```bash
 ### **3. Run the classifier**
 python sms_classifier.py
+```
 
 
 ## **📊 Dataset**
