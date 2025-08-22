@@ -26,7 +26,7 @@ sms-spam-classifier/
 ![Dataset Example](excel_file.jpg)  
 
 ### 2️⃣ Training Output  
-![Training Output](Figure1.png)  
+![Training Output](Figure_1.png)  
 
 ### 3️⃣ Prediction Example  
 ![Prediction Example](figure_2.jpg)  
