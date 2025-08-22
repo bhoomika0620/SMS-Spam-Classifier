@@ -1,36 +1,69 @@
-# 📱 SMS Spam Classifier
+# 📩 SMS Spam Classifier  
 
-This project is a **machine learning model** that classifies SMS messages as **Spam** or **Not Spam (Ham)** using Python and Scikit-learn.
-
----
-
-## 🚀 Features
-- Preprocessing and cleaning of SMS dataset  
-- TF-IDF feature extraction  
-- Naive Bayes classifier for spam detection  
-- Performance evaluation with accuracy, precision, recall, and F1-score  
-- Confusion matrix visualization  
+This project is a **machine learning model** that classifies SMS messages as **Spam** or **Ham (Not Spam)** using Python and scikit-learn.  
 
 ---
 
-## 📂 Dataset
-We use the **SMS Spam Collection Dataset** from UCI Machine Learning Repository.  
-Link: [SMS Spam Dataset](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
+## 🚀 Features  
+- Preprocesses text messages (cleaning, tokenization, vectorization)  
+- Uses **Naive Bayes Classifier** for classification  
+- Achieves high accuracy on the SMS Spam dataset  
+- Easy to run and test locally  
 
 ---
 
-## 🛠️ Tech Stack
-- Python  
-- Pandas, Numpy  
-- Scikit-learn  
-- Matplotlib, Seaborn  
-         
+## 📂 Project Structure  
+sms-spam-classifier/
+│── sms_classifier.py # Main Python script
+│── spam.csv # Dataset (SMS messages with labels)
+│── README.md # Project documentation
+
 ---
 
-## ⚡ Usage
-1. Clone the repo
-2. pip install -r requirements.txt
-3. jupyter notebook "SMS classifier.ipynb"
+## 🖼️ Screenshots  
 
-   ```bash
-   git clone https://github.com/your-username/sms-spam-classifier.git
+### 1️⃣ Dataset Sample  
+![Dataset Example](https://i.imgur.com/dxWmptS.png)  
+
+### 2️⃣ Training Output  
+![Training Output](https://i.imgur.com/5Z6Wf0g.png)  
+
+### 3️⃣ Prediction Example  
+![Prediction Example](https://i.imgur.com/Ej7kCGj.png)  
+
+---
+
+## ⚙️ Installation  
+
+### 1. Clone this repo
+```bash
+git clone https://github.com/your-username/sms-spam-classifier.git
+cd sms-spam-classifier
+
+### **2. Install dependencies**
+pip install pandas scikit-learn
+
+### **3. Run the classifier**
+python sms_classifier.py
+
+
+## **📊 Dataset**
+This project uses the SMS Spam Collection Dataset.
+Make sure spam.csv is placed in the same folder as sms_classifier.py.
+
+## **🧑‍💻 Example Output**
+Training Accuracy: 98.7%
+Test Accuracy: 97.3%
+
+Enter a message: "Congratulations! You won a free ticket"
+Prediction: SPAM 🚨
+
+## **🤝 Contributing**
+Pull requests are welcome! If you’d like to improve this project, feel free to fork the repo and submit a PR.
+
+## **⭐ Acknowledgements**
+
+1. UCI ML Repository
+2. scikit-learn documentation
+
+
